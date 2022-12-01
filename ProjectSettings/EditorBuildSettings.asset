@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/0.Startowa.unity
+    guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/Scenes/1.Login.unity
+    guid: 78bfd12b192e8f34f87124f02d74e9a4
+  - enabled: 1
+    path: Assets/Scenes/Pusta.unity
+    guid: aeff4e04850e71d449fabbbf27d37c21
+  - enabled: 1
+    path: Assets/Logika - dzialania/LogikaScena0.unity
+    guid: d6c335cd5efa717409d7237a0219f3d3
+  - enabled: 1
+    path: Assets/Logika - dzialania/LogikaScena1.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Logika - dzialania/LogikaScena3.unity
+    guid: 5942285e43ae06d4fbb177d9885edb94
+  - enabled: 1
+    path: Assets/Logika - dzialania/LogikaScena4.unity
+    guid: b3fbce50587a9c44fb81033602944946
+  - enabled: 1
+    path: Assets/Logika - dzialania/LogikaScena5.unity
+    guid: 5fd0074fc2c542e46885752542b92bfc
+  - enabled: 1
+    path: Assets/Logika - dzialania/LogikaScena6.unity
+    guid: ed21c7014f070ad4fba2a31af3e6cab2
+  - enabled: 1
+    path: "Assets/Pami\u0119\u0107 - memory/PamiecScena0.unity"
+    guid: e31e3c3ca9f5a8247836a2af32d4a60c
+  - enabled: 1
+    path: "Assets/Pami\u0119\u0107 - memory/PamiecScena1.unity"
+    guid: 2fc6e93805e838e47baff527d7f10882
+  - enabled: 1
+    path: "Assets/Pami\u0119\u0107 - memory/PamiecScena2.unity"
+    guid: b6b227eee14da864f933163fcacd6787
+  - enabled: 1
+    path: "Assets/Pami\u0119\u0107 - memory/PamiecScena3.unity"
+    guid: 5132dd97b05fbb04fab296814a9e47c1
+  - enabled: 1
+    path: "Assets/Pami\u0119\u0107 - memory/PamiecScena4.unity"
+    guid: 481eb388fa3780f41ba89027e2dcfd54
+  - enabled: 1
+    path: Assets/Koncentracja - kulki/Koncentracja0.unity
+    guid: 34a5f754a2e050f4b8f92bb527900759
+  - enabled: 1
+    path: Assets/Koncentracja - kulki/Koncentracja1.unity
+    guid: 25f7068b8d854f849bb6f3191909741b
+  - enabled: 1
+    path: Assets/Koncentracja - kulki/Koncentracja2.unity
+    guid: 6bf10323548f9274890299ea0b2c67b8
+  - enabled: 1
+    path: Assets/Koncentracja - kulki/Koncentracja3.unity
+    guid: be62d99b2a8104b4f9f4c7d7dd4597e1
+  - enabled: 1
+    path: Assets/Koncentracja - kulki/Koncentracja4.unity
+    guid: cd08f87856452144da50ea2dc7f00325
+  - enabled: 1
+    path: "Assets/Szybko\u015B\u0107 - trafianie/SzybkoscScena0.unity"
+    guid: f9e6607c40d9b1645902f4da8a924704
+  - enabled: 1
+    path: "Assets/Szybko\u015B\u0107 - trafianie/SzybkoscScena1.unity"
+    guid: a905af3c826c94743b7444f73c49ce11
+  - enabled: 1
+    path: "Assets/Szybko\u015B\u0107 - trafianie/SzybkoscScena2.unity"
+    guid: 815a31211298b79468353fcf00bfb162
+  - enabled: 1
+    path: "Assets/Szybko\u015B\u0107 - trafianie/SzybkoscScena3.unity"
+    guid: 088788756e8eda646af7a9fa97dfa324
+  - enabled: 1
+    path: "Assets/Szybko\u015B\u0107 - trafianie/SzybkoscScena4.unity"
+    guid: cebfacc685286844bb076cecb06462d7
+  - enabled: 1
+    path: Assets/Scenes/4.Podsumowanie.unity
+    guid: ff74e5e87b9da214c8902470278c1bb2
+  - enabled: 1
+    path: Assets/Scenes/5.ZdobytyePunkty.unity
+    guid: aa8845cfa7dbb714aa385bdb76c8913f
+  - enabled: 1
+    path: Assets/Scenes/6.Poziomy.unity
+    guid: 8e35e236114ed044fbdf2a719f82f5c6
+  - enabled: 1
+    path: Assets/Scenes/7.0.Obszary.unity
+    guid: 3e65d6deda8010343b21bad12b16fa17
+  - enabled: 1
+    path: Assets/Scenes/7.1.Logika.unity
+    guid: bd4165850a327b44ca75f3b63281ffa7
+  - enabled: 1
+    path: "Assets/Scenes/7.2.Pami\u0119\u0107.unity"
+    guid: 8fa3f99191bc9b1459355f60f6c9dc1d
+  - enabled: 1
+    path: Assets/Scenes/7.3.Koncentracja.unity
+    guid: fdea46259e0a0f14288117c9ed5b122f
+  - enabled: 1
+    path: "Assets/Scenes/7.4.Szybko\u015B\u0107.unity"
+    guid: 025efa2e77dc4024a91aa64bf3d31575
+  - enabled: 1
+    path: Assets/Scenes/8.PunktyObszary.unity
+    guid: ef4cb9442742a4948a86580a24ca4b49
+  - enabled: 1
+    path: Assets/Scenes/9.Statystyki.unity
+    guid: 0d49b66cce1c7b941ae70fcd3d781bb5
+  - enabled: 1
+    path: Assets/Scenes/10.Ustawienia.unity
+    guid: ceb82f39167d8f74dac5fa46156a2fa9
+  m_configObjects: {}
