@@ -27,7 +27,7 @@ public class SummaryMathf : MonoBehaviour
     public Image goodImage;
 
     public string scene;
-
+   
     void Start()
     {
         poprawne.gameObject.SetActive(false);
@@ -55,6 +55,7 @@ public class SummaryMathf : MonoBehaviour
         CountWrongAnswersInt.text = wrongAnswersInt.ToString();
         LeanTween.alpha(image.GetComponent<RectTransform>(), 1f, 1f);
         showSummary = true;
+            CurrentPatientInfo.instance.SaveLogic(goodAnswersInt,wrongAnswersInt);
         StartCoroutine(ShowInfo());
     }
     IEnumerator ShowInfo()

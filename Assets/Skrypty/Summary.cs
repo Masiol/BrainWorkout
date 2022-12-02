@@ -24,8 +24,11 @@ public class Summary : MonoBehaviour
     public int goodAnswersInt;
     public Memory memory;
 
-    public int scene;
+    public int allGoodAnswer;
+    public int allBadAnswer;
 
+    public int scene;
+    [SerializeField] private bool lastRound;
     void Start()
     {
         poprawne.gameObject.SetActive(false);
@@ -54,9 +57,11 @@ public class Summary : MonoBehaviour
         CountWrongAnswersInt.text = wrongAnswersInt.ToString();
         LeanTween.alpha(image.GetComponent<RectTransform>(), 1f, 1f).setEaseInExpo();
         showSummary = true;
+        allBadAnswer = PlayerPrefs.GetInt("WszystkieZleOdpowiedzi");
+        allGoodAnswer =  PlayerPrefs.GetInt("WszystkiePoprawneOdpowiedzi");
+        if (lastRound)
+            CurrentPatientInfo.instance.SaveMemeory(allGoodAnswer, allBadAnswer);
         StartCoroutine(ShowInfo());
-        Debug.Log(PlayerPrefs.GetInt("WszystkieZleOdpowiedzi"));
-        Debug.Log(PlayerPrefs.GetInt("WszystkiePoprawneOdpowiedzi"));
     }
     IEnumerator ShowInfo()
     {
